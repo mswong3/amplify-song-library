@@ -1,0 +1,9 @@
+type Song @model {
+    id: ID!
+    title: String!
+    description: String!
+    filePath: String!
+    likes: Int!
+    owner: String!
+}
+
